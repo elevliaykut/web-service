@@ -7,7 +7,7 @@ router.get('/', (req, res, next) => {
 });
 //Veriyi güvenilir şekilde http ile gönderir.
 router.post('/', (req, res, next) => {
-    res.status(200).json({
+    res.status(201).json({
         message: 'Handling POST request to /products'
     });
 });
