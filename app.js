@@ -1,13 +1,5 @@
 const express = require('express');
 const app = express();
-
-app.use((req, res) => {
-    res.status(200).json({
-        name:'Aykut',
-        surname:'Elevli',
-        phone:'1234567',
-        adress:'Tirebolu/Giresun',
-    });
-});
-
+const productRoutes = require('./api/routes/products');
+app.use('/products', productRoutes);
 module.exports = app;
