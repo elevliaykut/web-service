@@ -1,0 +1,24 @@
+{
+  "name": "building-restful-api",
+  "version": "1.0.0",
+  "description": "Build RestFul Apı with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elevliaykut/building-restful-api.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Aykut Elevli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elevliaykut/building-restful-api/issues"
+  },
+  "homepage": "https://github.com/elevliaykut/building-restful-api#readme"
+}
