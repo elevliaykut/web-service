@@ -3,7 +3,10 @@ const app = express();
 
 app.use((req, res) => {
     res.status(200).json({
-        message:'Node.Js is working'
+        name:'Aykut',
+        surname:'Elevli',
+        phone:'1234567',
+        adress:'Tirebolu/Giresun',
     });
 });
 
