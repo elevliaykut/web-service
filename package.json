@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/elevliaykut/building-restful-api/issues"
   },
-  "homepage": "https://github.com/elevliaykut/building-restful-api#readme"
+  "homepage": "https://github.com/elevliaykut/building-restful-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
