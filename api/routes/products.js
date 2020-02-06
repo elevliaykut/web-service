@@ -7,8 +7,13 @@ router.get('/', (req, res, next) => {
 });
 //Veriyi güvenilir şekilde http ile gönderir.
 router.post('/', (req, res, next) => {
+    const product = {
+        name: req.body.name,
+        price: req.body.price
+    };
     res.status(201).json({
-        message: 'Handling POST request to /products'
+        message: 'Handling POST request to /products',
+        createdProduct: product
     });
 });
 //Verii gönderirken güvenliği önemsemez.
