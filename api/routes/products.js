@@ -37,5 +37,4 @@ router.delete('/:productId', (req, res, next) => {
         message: 'Deleted Product!'
     });
 });
-
 module.exports = router;
