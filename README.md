@@ -1,6 +1,6 @@
 ## Building-Restful-Api (Web Service) with Node.Js
 
-### Technologies used 🚀;
+### Technologies used;🚀
 -   Node.js with Express
 -   AWS
 -   MongoDB for database with Mongoose
