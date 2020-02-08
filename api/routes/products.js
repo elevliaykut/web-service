@@ -11,7 +11,21 @@ const storage = multer.diskStorage({
         cb(null, new Date().toISOString() + file.originalname);
     }
 });
-const upload = multer({ storage: storage });
+const fileFilter = (req, file, cb) => {
+    // reject file
+    if (file.mimetype === 'images/jpeg' || file.mimetype === 'image/png') {
+        cb(null, true);
+    } else {
+        cb(null, true);
+    }
+}
+const upload = multer({
+    storage: storage,
+    limits: {
+        fileSize: 1024 * 1024 * 5
+    },
+    fileFilter: fileFilter
+});
 const Product = require('../models/product');
 
 router.get('/', (req, res, next) => {
