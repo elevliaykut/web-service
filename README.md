@@ -16,6 +16,6 @@
 
 - Clone the repository and go to project directory.
   
-  git clone https://github.com/elevliaykut/web-service.git
+  - $ git clone https://github.com/elevliaykut/web-service.git
 
-  cd web-service
+  - $ cd web-service
