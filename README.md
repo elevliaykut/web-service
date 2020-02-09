@@ -79,3 +79,37 @@
         </tr>
     </tbody>
   </table>
+
+  ## Sending Request To Orders
+
+<table>
+    <thead>
+      <tr>
+        <th>Method</th>
+        <th>URL</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>POST</td>
+            <td>https://localhost:3000/orders</td>
+            <td><code>Create New Order</code></td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>https://localhost:3000/orders</td>
+            <td><code>Fetch All Order</code></td>
+        </tr>
+        <tr>
+            <td>PATCH</td>
+            <td>https://localhost:3000/:orderId</td>
+            <td><code>Update Order</code></td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>https://localhost:3000/:orderId</td>
+            <td><code>Delete Order</code></td>
+        </tr>
+    </tbody>
+  </table>
