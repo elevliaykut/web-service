@@ -13,3 +13,9 @@
 ✔️  MongoDB for database with Mongoose
 
 ## Installation
+
+- Clone the repository and go to project directory.
+  
+  git clone https://github.com/elevliaykut/web-service.git
+
+  cd web-service
