@@ -70,6 +70,25 @@
     </tbody>
   </table>
 
+## Sending Request To LogIn
+
+<table>
+    <thead>
+      <tr>
+        <th>Method</th>
+        <th>URL</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>POST</td>
+            <td>https://localhost:3000/user/login</td>
+            <td><code>Auth Provide & return a verify token</code></td>
+        </tr>
+    </tbody>
+  </table>
+
 ## Sending Request To Product
 
 <table>
