@@ -51,26 +51,31 @@ router.post('/login', (req, res, next) => {
         .then(user => {
             if (user.length < 1) {
                 return res.status(404).json({
-                    message:'Authentication Failed'
+                    message: 'Authentication Failed'
                 });
             }
             bcrypt.compare(req.body.password, user[0].password, (err, result) => {
-                if(err){
+                if (err) {
                     return res.status(500).json({
-                        message:'Authentication Failed'
+                        message: 'Authentication Failed'
                     });
                 }
-                if(result){
-                    jwt.sign({
-                        email:user[0].email,
-                        userId:user[0].id
-                    })
+                if (result) {
+                    const token = jwt.sign({
+                        email: user[0].email,
+                        userId: user[0]._id
+                    }, process.env.JWT_KEY,
+                        {
+                            expiresIn:'1h'
+                        }
+                    );
                     return res.status(200).json({
-                        message:'Authentication Successful'
+                        message: 'Authentication Successful',
+                        token:token
                     });
                 }
                 res.status(404).json({
-                    message:'Authentication Failed'
+                    message: 'Authentication Failed'
                 })
             });
         })
