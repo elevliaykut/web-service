@@ -63,12 +63,12 @@ exports.user_login = (req, res, next) => {
                         userId: user[0]._id
                     }, process.env.JWT_KEY,
                         {
-                            expiresIn:'1h'
+                            expiresIn: '1h'
                         }
                     );
                     return res.status(200).json({
                         message: 'Authentication Successful',
-                        token:token
+                        token: token
                     });
                 }
                 res.status(404).json({
@@ -81,5 +81,20 @@ exports.user_login = (req, res, next) => {
             res.status(500).json({
                 error: err
             });
+        });
+}
+exports.user_delete = (req, res, next) => {
+    User.remove({ _id: req.params.userId })
+        .exec()
+        .then(result => {
+            res.status(200).json({
+                message: 'User Deleted Succsessfully'
+            });
+        })
+        .catch(err => {
+            console.log(err);
+            res.status(500).json({
+                error: err
+            })
         });
 }
