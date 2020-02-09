@@ -59,13 +59,23 @@
     <tbody>
         <tr>
             <td>POST</td>
-            <td>https://localhost:3000</td>
-            <td><code>XmlHttpRequest</code></td>
+            <td>https://localhost:3000/products</td>
+            <td><code>Create New Product</code></td>
         </tr>
         <tr>
             <td>GET</td>
-            <td>camelCase</td>
-            <td><code>newCustomerId</code></td>
+            <td>https://localhost:3000/products</td>
+            <td><code>Fetch All Products</code></td>
+        </tr>
+        <tr>
+            <td>PATCH</td>
+            <td>https://localhost:3000/:productId</td>
+            <td><code>Update Product</code></td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>https://localhost:3000/:productId</td>
+            <td><code>Delete Product</code></td>
         </tr>
     </tbody>
   </table>
