@@ -11,3 +11,5 @@
 ✔️  JWT (Json Web Token)  
 
 ✔️  MongoDB for database with Mongoose
+
+## Installation
