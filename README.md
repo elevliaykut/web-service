@@ -20,6 +20,22 @@
 
   - cd web-service
 
+- Install MongoDB for mongoose in project directory.
+
+    -   npm install mongoose --save
+
+- Install JsonWebToken (JWT) for Authentication.
+
+    - npm install jsonwebtoken --save
+
+- Install bcrypt for encode password after authentication.
+
+    - npm install bcrypt --save
+
+- Install regex (Regular Expression) for validation.
+
+    - npm install regex --save
+
 - Install npm and start the web service.
 
     - npm install
@@ -30,7 +46,7 @@
 
     - https://www.postman.com/downloads/
 
-## Sending Request
+## Sending Request To Product
 
 <table>
     <thead>
@@ -43,7 +59,7 @@
     <tbody>
         <tr>
             <td>POST</td>
-            <td>get</td>
+            <td>https://localhost:3000</td>
             <td><code>XmlHttpRequest</code></td>
         </tr>
         <tr>
