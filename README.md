@@ -46,6 +46,30 @@
 
     - https://www.postman.com/downloads/
 
+## Sending Request To SignUp
+
+<table>
+    <thead>
+      <tr>
+        <th>Method</th>
+        <th>URL</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>POST</td>
+            <td>https://localhost:3000/user/signup</td>
+            <td><code>Create New User</code></td>
+        </tr>
+        <tr>
+            <td>DELETE</td>
+            <td>https://localhost:3000/user/:userid</td>
+            <td><code>Delete User</code></td>
+        </tr>
+    </tbody>
+  </table>
+
 ## Sending Request To Product
 
 <table>
