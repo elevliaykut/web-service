@@ -16,35 +16,35 @@
 
 - Clone the repository and go to project directory.
   
-  - git clone https://github.com/elevliaykut/web-service.git
+      - git clone https://github.com/elevliaykut/web-service.git
 
-  - cd web-service
+      - cd web-service
 
 - Install MongoDB for mongoose in project directory.
 
-    -   npm install mongoose --save
+      -   npm install mongoose --save
 
 - Install JsonWebToken (JWT) for Authentication.
 
-    - npm install jsonwebtoken --save
+      - npm install jsonwebtoken --save
 
 - Install bcrypt for encode password after authentication.
 
-    - npm install bcrypt --save
+      - npm install bcrypt --save
 
 - Install regex (Regular Expression) for validation.
 
-    - npm install regex --save
+      - npm install regex --save
 
 - Install npm and start the web service.
 
-    - npm install
+      - npm install
 
-    - npm start
+      - npm start
 
 - Install the postman on your system and test api.
 
-    - https://www.postman.com/downloads/
+      - https://www.postman.com/downloads/
 
 ## Sending Request To SignUp ✔️
 
