@@ -29,3 +29,5 @@
 - Install the postman on your system and test api.
 
     - https://www.postman.com/downloads/
+
+## Sending Request
