@@ -31,3 +31,25 @@
     - https://www.postman.com/downloads/
 
 ## Sending Request
+
+<table>
+    <thead>
+      <tr>
+        <th>Method</th>
+        <th>URL</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>POST</td>
+            <td>get</td>
+            <td><code>XmlHttpRequest</code></td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>camelCase</td>
+            <td><code>newCustomerId</code></td>
+        </tr>
+    </tbody>
+  </table>
