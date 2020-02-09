@@ -19,3 +19,13 @@
   - git clone https://github.com/elevliaykut/web-service.git
 
   - cd web-service
+
+- Install npm and start the web service.
+
+    - npm install
+
+    - npm start
+
+- Install the postman on your system and test api.
+
+    - https://www.postman.com/downloads/
