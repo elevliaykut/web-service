@@ -59,12 +59,12 @@
     <tbody>
         <tr>
             <td>POST</td>
-            <td>https://localhost:3000/user/signup</td>
+            <td>{{HOST}}/user/signup</td>
             <td><code>Create New User</code></td>
         </tr>
         <tr>
             <td>DELETE</td>
-            <td>https://localhost:3000/user/:userid</td>
+            <td>{{HOST}}/user/:userid</td>
             <td><code>Delete User</code></td>
         </tr>
     </tbody>
@@ -83,7 +83,7 @@
     <tbody>
         <tr>
             <td>POST</td>
-            <td>https://localhost:3000/user/login</td>
+            <td>{{HOST}}/user/login</td>
             <td><code>Auth Provide & return a verify token</code></td>
         </tr>
     </tbody>
@@ -102,22 +102,22 @@
     <tbody>
         <tr>
             <td>POST</td>
-            <td>https://localhost:3000/products</td>
+            <td>{{HOST}}/products</td>
             <td><code>Create New Product</code></td>
         </tr>
         <tr>
             <td>GET</td>
-            <td>https://localhost:3000/products</td>
+            <td>{{HOST}}/products</td>
             <td><code>Fetch All Products</code></td>
         </tr>
         <tr>
             <td>PATCH</td>
-            <td>https://localhost:3000/:productId</td>
+            <td>{{HOST}}/:productId</td>
             <td><code>Update Product</code></td>
         </tr>
         <tr>
             <td>DELETE</td>
-            <td>https://localhost:3000/:productId</td>
+            <td>{{HOST}}/:productId</td>
             <td><code>Delete Product</code></td>
         </tr>
     </tbody>
@@ -136,22 +136,22 @@
     <tbody>
         <tr>
             <td>POST</td>
-            <td>https://localhost:3000/orders</td>
+            <td>{{HOST}}/orders</td>
             <td><code>Create New Order</code></td>
         </tr>
         <tr>
             <td>GET</td>
-            <td>https://localhost:3000/orders</td>
+            <td>{{HOST}}/orders</td>
             <td><code>Fetch All Order</code></td>
         </tr>
         <tr>
             <td>PATCH</td>
-            <td>https://localhost:3000/:orderId</td>
+            <td>{{HOST}}/:orderId</td>
             <td><code>Update Order</code></td>
         </tr>
         <tr>
             <td>DELETE</td>
-            <td>https://localhost:3000/:orderId</td>
+            <td>{{HOST}}/:orderId</td>
             <td><code>Delete Order</code></td>
         </tr>
     </tbody>
